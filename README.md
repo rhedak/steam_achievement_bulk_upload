@@ -26,12 +26,14 @@ uv sync
 uv run playwright install chromium
 ```
 
-### From PyPI (once published)
+### From PyPI
 
 ```bash
 pip install steam-ach-upload
 playwright install chromium
 ```
+
+See also the package on [pypi](https://pypi.org/project/steam-ach-upload/)
 
 ## CSV format
 
