@@ -1,0 +1,6 @@
+API Name,Display Name (EN),Description (EN),Achieved Icon,Unachieved Icon
+ACH_FIRST_STEPS,First Steps,Complete the tutorial.,icons/first_steps_done.png,icons/first_steps_locked.png
+ACH_VETERAN,Veteran,Play 100 matches.,icons/veteran_done.png,icons/veteran_locked.png
+ACH_COLLECTOR,Collector,Unlock every item.,icons/collector_done.png,icons/collector_locked.png
+ACH_SPEEDRUN,Speedrunner,Finish a level in under 60 seconds.,icons/speedrun_done.png,icons/speedrun_locked.png
+ACH_SOCIAL,Social Butterfly,Play with 5 different people.,icons/social_done.png,icons/social_locked.png

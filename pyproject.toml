@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "steam-ach-upload"
+version = "0.1.0"
+description = "Bulk-upload Steam achievements to the Steamworks partner portal via browser automation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+keywords = ["steam", "steamworks", "achievements", "gamedev", "automation"]
+dependencies = [
+    "playwright>=1.40",
+]
+
+[project.scripts]
+steam-ach-upload = "steam_ach_upload:main"
+
+[project.urls]
+Repository = "https://github.com/rhedak/steam-ach-upload"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/steam_ach_upload"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "pytest-asyncio>=0.23",
+]
