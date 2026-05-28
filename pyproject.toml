@@ -18,7 +18,7 @@ dependencies = [
 steam-ach-upload = "steam_ach_upload:main"
 
 [project.urls]
-Repository = "https://github.com/rhedak/steam-ach-upload"
+Repository = "https://github.com/rhedak/steam_achievement_bulk_upload"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/steam_ach_upload"]

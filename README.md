@@ -20,7 +20,7 @@ Bulk-upload Steam achievements to the [Steamworks partner portal](https://partne
 ### From source (recommended for development)
 
 ```bash
-git clone https://github.com/rhedak/steam-ach-upload
+git clone https://github.com/rhedak/steam_achievement_bulk_upload
 cd steam-ach-upload
 uv sync
 uv run playwright install chromium
@@ -111,5 +111,7 @@ Built with support by Claude Code.
 ## Self-Promotion
 
 If this package has been at all helpful to you consider checking out my game.
+
 [Steam](https://store.steampowered.com/app/4757690/Panzer_Island/)
+
 [Itcho.io](https://rhedak.itch.io/panzer-island-web)
