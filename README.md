@@ -2,6 +2,8 @@
 
 Bulk-upload Steam achievements to the [Steamworks partner portal](https://partner.steamgames.com/) using browser automation (Playwright). Reads a CSV file of achievements and uploads each one — including icons — without you having to click through the portal manually.
 
+*Warning: Currently only works if your steam website is set to English. You can fork and adjust the code for your preferred language or set your website to English.*
+
 ## Features
 
 - Uploads name, description, achieved icon, and unachieved icon for every achievement in one run
