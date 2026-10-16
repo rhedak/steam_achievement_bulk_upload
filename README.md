@@ -1,3 +1,5 @@
+> **Deprecated — no longer maintained.** Valve shipped an [updated achievement system](https://store.steampowered.com/news/group/4145017/view/677385962174549063) with official **Bulk Import/Export** in Steamworks (definitions, localization, and icons via CSV). Use the partner portal’s achievement editor instead of this tool. See the [Step by Step: Achievements](https://partner.steamgames.com/doc/features/achievements/ach_guide) guide, **Bulk Import/Export** section.
+
 # steam-ach-upload
 
 Bulk-upload Steam achievements to the [Steamworks partner portal](https://partner.steamgames.com/) using browser automation (Playwright). Reads a CSV file of achievements and uploads each one — including icons — without you having to click through the portal manually.
